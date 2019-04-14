@@ -19,14 +19,14 @@ const restrictedGlobals = require('confusing-browser-globals');
 module.exports = {
     root: true,
 
-    parser: require.resolve('babel-eslint'),
+    parser: 'babel-eslint',
 
     plugins: [
-        require.resolve('eslint-plugin-import'),
-        require.resolve('eslint-plugin-flowtype'),
-        require.resolve('eslint-plugin-jsx-a11y'),
-        require.resolve('eslint-plugin-react'),
-        require.resolve('eslint-plugin-react-hooks')
+        'eslint-plugin-import',
+        'eslint-plugin-flowtype',
+        'eslint-plugin-jsx-a11y',
+        'eslint-plugin-react',
+        'eslint-plugin-react-hooks'
     ],
 
     env: {
@@ -45,11 +45,11 @@ module.exports = {
         },
     },
 
-    // settings: {
-    //     react: {
-    //         version: 'detect',
-    //     },
-    // },
+    settings: {
+        react: {
+            version: 'detect',
+        },
+    },
 
     // NOTE: When adding rules here, you need to make sure they are compatible with
     // `typescript-eslint`, as some rules such as `no-array-constructor` aren't compatible.
