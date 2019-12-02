@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-packez",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "description": "ESLint configuration used by packez",
     "license": "MIT",
     "files": [

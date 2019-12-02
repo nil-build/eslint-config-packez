@@ -45,11 +45,11 @@ module.exports = {
         }
     },
 
-    // settings: {
-    //     react: {
-    //         version: 'detect',
-    //     },
-    // },
+    settings: {
+        react: {
+            version: "detect"
+        }
+    },
 
     // NOTE: When adding rules here, you need to make sure they are compatible with
     // `typescript-eslint`, as some rules such as `no-array-constructor` aren't compatible.
