@@ -1,15 +1,12 @@
 {
     "name": "eslint-config-packez",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "description": "ESLint configuration used by packez",
     "license": "MIT",
     "files": [
         "index.js"
     ],
-    "peerDependencies": {
-        "eslint": "5.x",
-        "babel-eslint": "10.x"
-    },
+    "peerDependencies": {},
     "dependencies": {
         "babel-eslint": "^10.0.3",
         "confusing-browser-globals": "^1.0.9",
@@ -18,6 +15,7 @@
         "eslint-plugin-import": "^2.18.2",
         "eslint-plugin-jsx-a11y": "^6.2.3",
         "eslint-plugin-react": "^7.17.0",
-        "eslint-plugin-react-hooks": "^1.7.0"
+        "eslint-plugin-react-hooks": "^1.7.0",
+        "react": "^16.12.0"
     }
 }
